@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media-query.css" />
+    <link rel="stylesheet" href="./css/card-hover.css" />
+
+    <title>Teste | Linx</title>
+  </head>
+  <body>
+    <header>
+      <div><h1>Tarefas a fazer</h1></div>
+      <div>
+        <h5>
+          Adicione e complete tarefas para organizar melhor a sua semana. ;)
+        </h5>
+      </div>
+    </header>
+    <div class="header-mobile-desc">
+      <h5>
+        Adicione e complete tarefas para organizar melhor a sua semana. :)
+      </h5>
+    </div>
+    <div class="container">
+      <div class="section-search">
+        <div class="task-search">
+          <input type="text" id="taskSearch" placeholder="Busque tarefas" />
+          <div class="button-search"><p>Buscar</p></div>
+        </div>
+        <div class="task-menu-search">
+          <p>Organizar por:</p>
+          <select name="select">
+            <option value="valor1" selected>
+              <p class="p-option">Prazo</p>
+            </option>
+            <option value="valor2">
+              <p class="p-option">Data de Inclusão</p>
+            </option>
+          </select>
+        </div>
+      </div>
+
+      <div class="section-cards">
+        <div class="cards-view">
+          <div class="card-task" id="showHover">
+            <div class="task-img">
+              <img src="./src/img/mask-group.png" />
+            </div>
+            <div class="task-text">
+              <p class="task-title">
+                Nome da Tarefa
+                <img src="./src/img/time-red.png" />
+              </p>
+              <p class="task-desc">
+                Descrição da tarefa, o que deve ser feito e muitas informações
+                que explicam melhor do que se trata.
+              </p>
+              <p class="task-deadline">Prazo: <span>00/00</span></p>
+              <div class="task-aux">
+                <p class="task-inclusion">Data de inclusão: há 2 semanas</p>
+                <div class="task-buttons" id="show">
+                  <button class="task-ok">Concluir</button>
+                  <button class="task-change">
+                    <img src="./src/img/time-white.png" />
+                    <p>Alterar prazo</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="prazo-curto">
+              <p class="prazo-title">Prazo Curto</p>
+            </div>
+          </div>
+
+          <div class="card-task" id="showHover">
+            <div class="task-img">
+              <img src="./src/img/mask-group.png" />
+            </div>
+            <div class="task-text">
+              <p class="task-title">Nome da Tarefa</p>
+              <p class="task-desc">
+                Descrição da tarefa, o que deve ser feito e muitas informações
+                que explicam melhor do que se trata.
+              </p>
+              <p class="task-deadline">Prazo: <span>00/00</span></p>
+
+              <div class="task-aux">
+                <p class="task-inclusion">Data de inclusão: há 2 semanas</p>
+
+                <div class="task-buttons" id="show">
+                  <button class="task-ok">Concluir</button>
+                  <button class="task-change">
+                    <img src="./src/img/time-white.png" />
+                    <p>Alterar prazo</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-task" id="showHover">
+            <div class="task-img">
+              <img src="./src/img/mask-group.png" />
+            </div>
+            <div class="task-text">
+              <p class="task-title">Nome da Tarefa</p>
+              <p class="task-desc">
+                Descrição da tarefa, o que deve ser feito e muitas informações
+                que explicam melhor do que se trata.
+              </p>
+              <p class="task-deadline">Prazo: <span>00/00</span></p>
+
+              <div class="task-aux">
+                <p class="task-inclusion">Data de inclusão: há 2 semanas</p>
+
+                <div class="task-buttons" id="show">
+                  <button class="task-ok">Concluir</button>
+                  <button class="task-change">
+                    <img src="./src/img/time-white.png" />
+                    <p>Alterar prazo</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-task" id="showHover">
+            <div class="task-img">
+              <img src="./src/img/mask-group.png" />
+            </div>
+            <div class="task-text">
+              <p class="task-title">Nome da Tarefa</p>
+              <p class="task-desc">
+                Descrição da tarefa, o que deve ser feito e muitas informações
+                que explicam melhor do que se trata.
+              </p>
+              <p class="task-deadline">Prazo: <span>00/00</span></p>
+              <div class="task-aux">
+                <p class="task-inclusion">Data de inclusão: há 2 semanas</p>
+                <div class="task-buttons" id="show">
+                  <button class="task-ok">Concluir</button>
+                  <button class="task-change">
+                    <img src="./src/img/time-white.png" />
+                    <p>Alterar prazo</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards-view">
+          <div class="card-task" id="showHover">
+            <div class="task-img">
+              <img src="./src/img/mask-group.png" />
+            </div>
+            <div class="task-text">
+              <p class="task-title">
+                Nome da Tarefa
+                <img src="./src/img/time-red.png" />
+              </p>
+              <p class="task-desc">
+                Descrição da tarefa, o que deve ser feito e muitas informações
+                que explicam melhor do que se trata.
+              </p>
+              <p class="task-deadline">Prazo: <span>00/00</span></p>
+              <div class="task-aux">
+                <p class="task-inclusion">Data de inclusão: há 2 semanas</p>
+                <div class="task-buttons" id="show">
+                  <button class="task-ok">Concluir</button>
+                  <button class="task-change">
+                    <img src="./src/img/time-white.png" />
+                    <p>Alterar prazo</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-task" id="showHover">
+            <div class="task-img">
+              <img src="./src/img/mask-group.png" />
+            </div>
+            <div class="task-text">
+              <p class="task-title">Nome da Tarefa</p>
+              <p class="task-desc">
+                Descrição da tarefa, o que deve ser feito e muitas informações
+                que explicam melhor do que se trata.
+              </p>
+              <p class="task-deadline">Prazo: <span>00/00</span></p>
+
+              <div class="task-aux">
+                <p class="task-inclusion">Data de inclusão: há 2 semanas</p>
+
+                <div class="task-buttons" id="show">
+                  <button class="task-ok">Concluir</button>
+                  <button class="task-change">
+                    <img src="./src/img/time-white.png" />
+                    <p>Alterar prazo</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-task" id="showHover">
+            <div class="task-img">
+              <img src="./src/img/mask-group.png" />
+            </div>
+            <div class="task-text">
+              <p class="task-title">Nome da Tarefa</p>
+              <p class="task-desc">
+                Descrição da tarefa, o que deve ser feito e muitas informações
+                que explicam melhor do que se trata.
+              </p>
+              <p class="task-deadline">Prazo: <span>00/00</span></p>
+
+              <div class="task-aux">
+                <p class="task-inclusion">Data de inclusão: há 2 semanas</p>
+
+                <div class="task-buttons" id="show">
+                  <button class="task-ok">Concluir</button>
+                  <button class="task-change">
+                    <img src="./src/img/time-white.png" />
+                    <p>Alterar prazo</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="atrasado">
+              <p class="prazo-title">Atrasado :(</p>
+            </div>
+          </div>
+
+          <div class="card-task" id="showHover">
+            <div class="task-img">
+              <img src="./src/img/mask-group.png" />
+            </div>
+            <div class="task-text">
+              <p class="task-title">Nome da Tarefa</p>
+              <p class="task-desc">
+                Descrição da tarefa, o que deve ser feito e muitas informações
+                que explicam melhor do que se trata.
+              </p>
+              <p class="task-deadline">Prazo: <span>00/00</span></p>
+              <div class="task-aux">
+                <p class="task-inclusion">Data de inclusão: há 2 semanas</p>
+                <div class="task-buttons" id="show">
+                  <button class="task-ok">Concluir</button>
+                  <button class="task-change">
+                    <img src="./src/img/time-white.png" />
+                    <p>Alterar prazo</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards-viewmore">
+          <p>ver mais +</p>
+        </div>
+      </div>
+
+      <div class="section-newsletter">
+        <div class="newsletter-card">
+          <p class="newsletter-title">
+            Quer receber dicas para organizar melhor a sua rotina? Cadastre-se!
+          </p>
+        </div>
+        <div class="newsletter-form">
+          <form action="#" method="post">
+            <div>
+              <label for="nome">nome</label><br />
+              <input type="text" id="nome" placeholder="  Digite seu nome" />
+            </div>
+            <div>
+              <label for="nome">e-mail</label><br />
+              <input type="text" id="email" placeholder="  Digite seu email" />
+            </div>
+            <div class="button">
+              <button type="submit">Cadastrar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="section-about">
+        <div class="about-img">
+          <img src="./src/img/logo.png" />
+        </div>
+        <div class="about-desc">
+          <p>
+            A Linx é uma empresa brasileira especialista em tecnologia para o
+            varejo. Líder no mercado de software de gestão, com 45,6% de market
+            share do mercado varejista, conforme atesta o IDC.
+          </p>
+          <p>
+            Toda a expertise da Linx na jornada de compra é transformada em
+            insights fundamentais para atingir o que os varejistas mais esperam:
+            fidelizar seus consumidores e atingir resultados concretos e
+            relevantes.
+          </p>
+          <p>
+            Com capital aberto na B3 desde 2013, a Linx também se tornou a
+            primeira empresa brasileira de software com capital aberto na NYSE,
+            em 2019. A empresa possui mais de 3,5 mil colaboradores distribuídos
+            entre sua sede em São Paulo, 15 filiais pelo Brasil e 5 países da
+            América. Para saber mais, acesse linx.com.br/imprensa.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div>
+        <p>
+          Testando suas habilidades em HTML e CSS. <br />Linx Impulse 2021<br />
+          Teste ficcional!
+        </p>
+      </div>
+    </footer>
+
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,166 @@
+@media screen and (max-width: 727px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    max-width: 727px;
+    width: 100%;
+    height: 20vh;
+  }
+  header h1 {
+    font-size: 24px;
+    line-height: 41px;
+  }
+  header h5 {
+    display: none;
+  }
+  .header-mobile-desc {
+    display: block;
+    width: 90%;
+    text-align: center;
+    margin: 2% 0 5% 0;
+    padding: 0 2%;
+    font-size: 16px;
+    line-height: 22px;
+    color: #422755;
+  }
+  .container {
+    max-width: 727px;
+    width: 90%;
+    margin-bottom: 8%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .section-search {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 1% 0;
+  }
+  .task-search,
+  .task-menu-search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2% 0;
+  }
+  .task-menu-search select {
+    width: 255px;
+    height: 34px;
+  }
+  .section-cards {
+    margin: 4% 0 8% 0;
+  }
+  .cards-view {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .card-task {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 2%;
+    margin: 2% 0;
+  }
+
+  .prazo-curto {
+    left: 0;
+    top: 10%;
+  }
+
+  .atrasado {
+    left: 0;
+    top: 10%;
+  }
+
+  .task-text {
+    margin: 0 1%;
+  }
+
+  .task-title img {
+    width: 5% !important;
+    display: block;
+  }
+  .task-aux {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .task-buttons {
+    display: block !important;
+  }
+  .task-change {
+    display: none;
+  }
+  .task-ok {
+    max-width: 500px;
+    width: 100%;
+    margin: 0;
+    height: 4vh;
+  }
+  .section-newsletter {
+    display: none;
+  }
+  .section-about {
+    max-width: 727px;
+    width: 90%;
+    margin-top: 4%;
+    flex-direction: column;
+  }
+  .about-desc {
+    width: 100%;
+    margin: 5% 0;
+    text-align: center;
+  }
+  .about-desc p:nth-child(2) {
+    margin: 3% 0;
+  }
+  footer {
+    max-width: 727px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  footer div {
+    margin: 2%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .container {
+    width: 90%;
+  }
+  .section-search {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 1% 0;
+  }
+
+  .section-cards {
+    margin: 4% 0 8% 0;
+  }
+
+  .task-text {
+    margin: 0 1%;
+  }
+
+  .task-img img {
+    width: 50%;
+    height: 100%;
+  }
+
+  .task-title img {
+    width: 8% !important;
+    display: block;
+  }
+
+  .task-ok {
+    max-width: 300px;
+    width: 100%;
+    margin: 0;
+    height: 4vh;
+  }
+}
