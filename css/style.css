@@ -413,3 +413,11 @@ footer div {
   line-height: 16px;
   text-align: center;
 }
+
+/* HOVER TASK */
+.task-buttons {
+  display: none;
+}
+.card-task:hover .task-buttons {
+  display: block;
+}

@@ -1,16 +1,10 @@
+// document.getElementById("showHover").addEventListener("mouseover", mouseOver);
+// document.getElementById("showHover").addEventListener("mouseout", mouseOut);
 
-document.getElementById("showHover").addEventListener("mouseover", mouseOver);
-document.getElementById("showHover").addEventListener("mouseout", mouseOut);
+// function mouseOver() {
+//   document.getElementById("show").style.display = "block";
+// }
 
-function mouseOver() {
-  document.getElementById("show").style.display = "block";
-}
-
-function mouseOut() {
-  document.getElementById("show").style.display = "none";
-}
-
-
-
-
-
+// function mouseOut() {
+//   document.getElementById("show").style.display = "none";
+// }
